@@ -2,7 +2,7 @@ const input = document.getElementById("search");
 const results = document.getElementById("results");
 
 // 👉 use Worker URL later
-const API = "https://YOUR-WORKER.yourname.workers.dev/search";
+const API = "https://spring-resonance-6e0f.imashishrohra.workers.dev/search";
 
 input.addEventListener("input", debounce(handleSearch, 400));
 
